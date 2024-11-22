@@ -1,41 +1,40 @@
 
 body{
-	height: 100%;
-    	width: 100%; 
+    width: 100%; 
 	color:white;
-	margin:0;
+	margin: 0;
 	padding-bottom:100px;
 }
 
 body.accueil{
-    	background: url('accueil.png') no-repeat center/cover;
+    background: url('accueil.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.bio{
-    	background: url('bio.png') no-repeat center/cover;
+    background: url('bio.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.cv{
-   	background: url('CV.png') no-repeat center/cover;
+    background: url('CV.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.projet{
- 	background: url('projet.png') no-repeat center/cover;
+    background: url('projet.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 header {
 	position: sticky;
 	top: 15px;
-	line-height: 70px;
-	width: 80%;
-	background-color: black;
-	border-radius: 50px;
-	text-align: center;
-	margin: auto;
+    line-height: 70px;
+    width: 80%;
+    background-color: black;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
 }
 
 header ul{
@@ -43,31 +42,31 @@ header ul{
 }
 
 header li {
-	text-transform: uppercase;
-	list-style: none;
-	display: inline-block;
-	margin-right: 8%;
-	font-size: 28px;
+    text-transform: uppercase;
+    list-style: none;
+    display: inline-block;
+    margin-right: 8%;
+    font-size: 28px;
 }
 
 header a {
-	color: white;
-    	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 header a:hover {
-    	color: blue;
-    	border-bottom: 3px solid #fef5e7;
+    color: blue;
+    border-bottom: 3px solid #fef5e7;
 }
 
 header a1 {
-	color: white;
-	border-bottom: 2px solid white;
+    color: white;
+    border-bottom: 2px solid white;
 }
 
 header a1:hover {
-    	color: blue;
-   	border-bottom: 3px solid #fef5e7;
+    color: blue;
+    border-bottom: 3px solid #fef5e7;
 }
 
 header .telephone{
@@ -76,66 +75,66 @@ header .telephone{
 }
 
 header a2 .hover-box {
-	display: none;
-	position: absolute;
-	top: 100%; 
-	left: 67%;
-	background-color: rgba(0, 0, 0, 1);
-	color: white;
-	padding: 10px;
-	border-radius: 10px;
-	width: 100%;
-	max-width: 300px;
-	font-size: 1vw;
-	text-align: left;
-	text-transform: none;  
+    display: none;
+    position: absolute;
+    top: 100%; 
+    left: 67%;
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    font-size: 1vw;
+    text-align: left;
+    text-transform: none;  
 }
 
 header a2 .hover-box ul {
-    	padding: 0; 
-    	margin: 0;
-   	line-height: 20px;
+    padding: 0; 
+    margin: 0;
+    line-height: 20px;
 }
 
 header a2 .hover-box li {
-    	font-size: 1vw;
-    	margin: 5px; 
-    	text-transform: none;
+    font-size: 1vw;
+    margin: 5px; 
+    text-transform: none;
 }
 
 header a2:hover .hover-box {
-    	display: block;
+    display: block;
 }
 
 header a2:hover {
-    	color: blue;
-    	border-bottom: 3px solid #fef5e7;
+    color: blue;
+    border-bottom: 3px solid #fef5e7;
 }
 
 
 section {
-    	max-width: 85%;
-    	margin: auto;
-    	padding: 15px;
-    	border-radius: 20px;
-    	border: 3px solid black;
-    	margin-top: 20px;
-    	display: flex;
-    	flex-wrap: wrap;
-    	justify-content: space-between;
-    	gap: 15px;
+    max-width: 85%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 article {
 	position: relative;
 	bottom: 35px;
-    	flex: 1 1 55%;
+    flex: 1 1 55%;
 	height:500px;
-    	min-width: 300px;
-    	margin: auto;
+    min-width: 300px;
+    margin: auto;
 	padding-left:20px;
-    	border-radius: 20px;
-    	box-sizing: border-box;
+    border-radius: 20px;
+    box-sizing: border-box;
 	z-index: -1;
 }
 
@@ -239,8 +238,7 @@ footer ul {
     margin: 0;
 }
 
-
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     header li {
         font-size: 20px;
         margin-right: 3%;
@@ -276,6 +274,17 @@ footer ul {
 	
 	article .cv1, article .cv2{
 		font-size: 18px;
+	}
+	
+	article .cv2{
+		position: relative;
+		bottom: 500px;
+	}
+	
+	article .cv2-3{
+		position: relative;
+		bottom: 0px;
+		left: 0%;
 	}
 	
 	article h1 {

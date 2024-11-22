@@ -1,40 +1,40 @@
 
 body{
-    width: 100%; 
+    	width: 100%; 
 	color:white;
 	margin: 0;
 	padding-bottom:100px;
 }
 
 body.accueil{
-    background: url('accueil.png') no-repeat center/cover;
+    	background: url('accueil.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.bio{
-    background: url('bio.png') no-repeat center/cover;
+    	background: url('bio.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.cv{
-    background: url('CV.png') no-repeat center/cover;
+    	background: url('CV.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.projet{
-    background: url('projet.png') no-repeat center/cover;
+    	background: url('projet.png') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 header {
 	position: sticky;
 	top: 15px;
-    line-height: 70px;
-    width: 80%;
-    background-color: black;
-    border-radius: 50px;
-    text-align: center;
-    margin: auto;
+   	 line-height: 70px;
+    	width: 80%;
+    	background-color: black;
+    	border-radius: 50px;
+   	text-align: center;
+   	margin: auto;
 }
 
 header ul{

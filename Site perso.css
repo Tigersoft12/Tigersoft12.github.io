@@ -217,10 +217,14 @@ footer p {
 	margin-bottom: 10px;
 }
 
+footer li{
+	list-style: none;
+    display: inline-block;
+}
+
 footer img {
     width: 50px;
     margin: 5px;
-	display: inline-block;
     vertical-align: middle;
 }
 

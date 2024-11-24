@@ -7,22 +7,22 @@ body{
 }
 
 body.accueil{
-    background: url('accueil.png') no-repeat center/cover;
+    background: url('accueil.avif') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.bio{
-    background: url('bio.png') no-repeat center/cover;
+    background: url('bio.avif') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.cv{
-    background: url('CV.png') no-repeat center/cover;
+    background: url('CV.avif') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
 body.projet{
-    background: url('projet.png') no-repeat center/cover;
+    background: url('projet.avif') no-repeat center/cover;
 	background-attachment: fixed;
 }
 

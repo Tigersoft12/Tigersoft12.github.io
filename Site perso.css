@@ -57,16 +57,11 @@ header a {
 header a:hover {
     color: blue;
     border-bottom: 3px solid #fef5e7;
+	transition: all 0.3s ease-in-out;
 }
 
-header a1 {
-    color: white;
+header .lien {
     border-bottom: 2px solid white;
-}
-
-header a1:hover {
-    color: blue;
-    border-bottom: 3px solid #fef5e7;
 }
 
 header .telephone{
@@ -74,7 +69,7 @@ header .telephone{
 	width:15px;
 }
 
-header a2 .hover-box {
+header .hover-box {
     display: none;
     position: absolute;
     top: 100%; 
@@ -90,25 +85,20 @@ header a2 .hover-box {
     text-transform: none;  
 }
 
-header a2 .hover-box ul {
+header .hover-box ul {
     padding: 0; 
     margin: 0;
     line-height: 20px;
 }
 
-header a2 .hover-box li {
+header .contact .hover-box li {
     font-size: 1vw;
     margin: 5px; 
     text-transform: none;
 }
 
-header a2:hover .hover-box {
+header .contact:hover .hover-box {
     display: block;
-}
-
-header a2:hover {
-    color: blue;
-    border-bottom: 3px solid #fef5e7;
 }
 
 
@@ -241,13 +231,12 @@ footer ul {
 
 @media (min-width: 780px) and (max-width: 1916px) {
 	section {
-        	flex-direction: column;
-        	align-items: center;
-   	}
+        flex-direction: column;
+        align-items: center;
+    }
 	
 	article img{
-		position: relative;
-		left:23%;
+		display:none;
 	}
 	
 	aside{
@@ -260,10 +249,6 @@ footer ul {
 	
 	article .cv1, article .cv2 {
 		margin-bottom:-150px;
-	}
-
-	article img{
-		display:none;
 	}
 }
 
@@ -288,7 +273,7 @@ footer ul {
         font-size: 3vw;
     }
 
-    header a2 .hover-box li {
+    header .contact .hover-box li {
         font-size: 3vw;
     }
 
@@ -332,7 +317,7 @@ footer ul {
 	article p1, article p2 {
         font-size: 18px;
     }
-
+	
 	article img{
 		display:none;
 	}
@@ -370,13 +355,13 @@ footer ul {
 		width:8px;
 	}
 	
-	header a2 .hover-box {
+	header .contact .hover-box {
         max-width: 60%;
 		left: 37%;
         font-size: 2.5vw;
     }
 
-    header a2 .hover-box li {
+    header .contact .hover-box li {
         font-size: 2.5vw;
     }
 	
@@ -411,12 +396,6 @@ footer ul {
 	article p1, article p2 {
         font-size: 16px;
     }
-	
-	article img{
-		position:relative;
-		left: 12%;
-		width:70%;
-	}
 
     footer img {
         width: 30px;

@@ -17,7 +17,7 @@ body.bio{
 }
 
 body.cv{
-    background: url('CV.avif') no-repeat center/cover;
+    background: url('cv.avif') no-repeat center/cover;
 	background-attachment: fixed;
 }
 
